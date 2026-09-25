@@ -1,1 +1,114 @@
-build: test
+build: '13'
+qualityGate: ''
+status: failed
+jenkinsUrl: /job/devops/job/debug-promotion-gate-summary/13/
+rhoaiVersion: 3.5.0-ea.1
+odsBuildUrl: odh-pr-1505-kserve
+correlationId: local-debug
+updateChannel: odh-stable
+cluster-health:
+  status: passed
+  passed: 1
+  failed: 0
+  skipped: 0
+operator-health:
+  status: failed
+  passed: 5
+  failed: 2
+  skipped: 0
+components:
+  dashboard:
+    status: passed
+    passed: 1
+    failed: 0
+    skipped: 0
+  aipipelines:
+    status: passed
+    passed: 1
+    failed: 0
+    skipped: 0
+  ray:
+    status: passed
+    passed: 1
+    failed: 0
+    skipped: 0
+  workbenches:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  kserve:
+    status: NotReady
+    passed: 0
+    failed: 1
+    skipped: 0
+  kueue:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  trustyai:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  trainingoperator:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  trainer:
+    status: passed
+    passed: 1
+    failed: 0
+    skipped: 0
+  modelregistry:
+    status: passed
+    passed: 1
+    failed: 0
+    skipped: 0
+  feastoperator:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  llamastackoperator:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  ogx:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  mlflowoperator:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  modelsasservice:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  sparkoperator:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  aigateway:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  batchgateway:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
+  mcplifecycleoperator:
+    status: NotAvailable
+    passed: 0
+    failed: 0
+    skipped: 0
