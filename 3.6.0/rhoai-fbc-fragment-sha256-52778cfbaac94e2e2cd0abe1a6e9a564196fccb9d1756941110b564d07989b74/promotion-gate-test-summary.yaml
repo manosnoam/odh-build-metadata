@@ -7,6 +7,7 @@ odsBuildUrl: quay.io/rhoai/rhoai-fbc-fragment@sha256:52778cfbaac94e2e2cd0abe1a6e
 updateChannel: beta
 clusterName: nmanos-test
 openshiftVersion: 4.21-latest
+podLogArchive: ods-install/rhods-logs-2026-09-28-0854.log.gz
 cluster-health:
   status: passed
   passed: 1
