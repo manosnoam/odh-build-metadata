@@ -1,0 +1,115 @@
+build: '13'
+qualityGate: ''
+status: passed
+jenkinsUrl: /job/devops/job/promotion-gate-tests/13/
+rhoaiVersion: 3.6.0
+odsBuildUrl: quay.io/rhoai/rhoai-fbc-fragment@sha256:52778cfbaac94e2e2cd0abe1a6e9a564196fccb9d1756941110b564d07989b74
+updateChannel: beta
+clusterName: nmanos-test
+openshiftVersion: 4.21-latest
+cluster-health:
+  status: passed
+  passed: 1
+  failed: 0
+  skipped: 0
+operator-health:
+  status: passed
+  passed: 4
+  failed: 0
+  skipped: 0
+components:
+  dashboard:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  aipipelines:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  ray:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  workbenches:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  kserve:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  kueue:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  trustyai:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  trainingoperator:
+    status: NotInstalled
+    passed: 0
+    failed: 0
+    skipped: 0
+  trainer:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  modelregistry:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  feastoperator:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  llamastackoperator:
+    status: Unknown
+    passed: 0
+    failed: 0
+    skipped: 0
+  ogx:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  mlflowoperator:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  modelsasservice:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  sparkoperator:
+    status: NotInstalled
+    passed: 0
+    failed: 0
+    skipped: 0
+  aigateway:
+    status: Ready
+    passed: 0
+    failed: 0
+    skipped: 0
+  batchgateway:
+    status: NotInstalled
+    passed: 0
+    failed: 0
+    skipped: 0
+  mcplifecycleoperator:
+    status: NotInstalled
+    passed: 0
+    failed: 0
+    skipped: 0
